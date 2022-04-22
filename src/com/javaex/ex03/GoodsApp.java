@@ -4,9 +4,9 @@ public class GoodsApp {
 
 	public static void main(String[] args) {
 		
-		Goods camera = new Goods();
-		camera.setName("nikon");
-		camera.setPrice(400000);
+		Goods camera = new Goods("니콘", 400000);
+//		camera.setName("nikon");
+//		camera.setPrice(400000);
 		Goods computer = new Goods();
 		computer.setName("LG 그램");
 		computer.setPrice(900000);

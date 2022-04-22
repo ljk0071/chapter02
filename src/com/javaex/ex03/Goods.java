@@ -6,7 +6,14 @@ public class Goods {
 	private int price;
 	
 	//생성자
-	
+	public Goods() {
+		// 메모리에 올리는 일 (클래스를 인스턴스화)
+		//로직
+	}
+	public Goods(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
 	//메소드 - getter setter
 	public void setName(String n) {
 		name = n;
