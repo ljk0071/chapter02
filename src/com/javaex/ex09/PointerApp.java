@@ -9,6 +9,8 @@ public class PointerApp {
 		ColorPointer cp1 = new ColorPointer("red");
 		ColorPointer cp2 = new ColorPointer(10, 10, "red");
 		
+		System.out.println(p + "" + cp1 + "" + cp2); 
+		
 		
 	}
 

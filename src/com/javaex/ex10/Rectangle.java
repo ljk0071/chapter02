@@ -1,13 +1,13 @@
 package com.javaex.ex10;
 
-public class Ractangle {
+public class Rectangle {
 	
 	protected String fillColor,lineColor;
 	protected int width, height;
 	
-	public Ractangle() {
+	public Rectangle() {
 	}
-	public Ractangle(String fillColor, String lineColor, int width, int height) {
+	public Rectangle(String fillColor, String lineColor, int width, int height) {
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 		this.width = width;

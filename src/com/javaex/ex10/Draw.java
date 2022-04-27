@@ -4,12 +4,12 @@ public class Draw {
 
 	public static void main(String[] args) {
 		
-		Ractangle[] rac = new Ractangle[2];
+		Rectangle[] rac = new Rectangle[2];
 		Triangle[] tri = new Triangle[2];
 		Circle[] cir = new Circle[2];
 		
-		rac[0] = new Ractangle("빨강", "검정", 4, 4);
-		rac[1] = new Ractangle("주황", "검정", 5, 5);
+		rac[0] = new Rectangle("빨강", "검정", 4, 4);
+		rac[1] = new Rectangle("주황", "검정", 5, 5);
 		tri[0] = new Triangle("빨강", "검정", 4, 4);
 		tri[1] = new Triangle("보라", "검정", 10, 10);
 		cir[0] = new Circle("보라", "빨강", 3);

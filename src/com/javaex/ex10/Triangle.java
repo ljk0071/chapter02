@@ -1,6 +1,6 @@
 package com.javaex.ex10;
 
-public class Triangle extends Ractangle{
+public class Triangle extends Rectangle{
 	
 	public Triangle() {
 		

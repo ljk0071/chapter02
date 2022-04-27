@@ -9,7 +9,7 @@ public class PersonApp {
 		Student s02 = new Student();
 		Student s03 = new Student("이준규", 26, "상문고등학교");
 		
-		System.out.println(s03);
+		System.out.println(p01+ ""+ s01+ " " + s02+ " " + s03);
 	}
 
 }
