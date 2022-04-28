@@ -1,6 +1,6 @@
 package com.javaex.ex10;
 
-public class Circle extends Ractangle{
+public class Circle extends Rectangle{
 	
 	private int radius;
 	
