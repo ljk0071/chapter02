@@ -1,6 +1,6 @@
 package com.javaex.ex11;
 
-public class Shape {
+public abstract class Shape {
 	
 	protected String fillColor, lineColor;
 	
@@ -28,12 +28,9 @@ public class Shape {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
 	
-	public void draw() {
-	}
+	public abstract void draw();
 	
-	public double area() {
-		return 0;
-	}
+	public abstract double area();
 	
 	
 }
